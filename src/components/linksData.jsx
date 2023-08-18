@@ -4,7 +4,7 @@ const links = [
     { title: 'Mastodon', url: 'https://mastodon.social/@jancebulla' },  
     { title: 'Twitter', url: 'https://twitter.com/JanCebulla' },
     { title: 'Reddit', url:'https://www.reddit.com/u/retardgerman'},
-    { title: 'Bluesky', url:'https://bsky.app/profile/jancebulla.bsky.social'}
+    { title: 'Bluesky', url: 'https://bsky.app/profile/jan-cebulla.de'}
   
     
     // Weitere Links hier hinzufügen
