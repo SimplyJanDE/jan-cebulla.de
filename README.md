@@ -11,6 +11,7 @@ Dies ist eine einfache React-Anwendung, die als Alternative zu Linktree verwende
 
 - Passe die Datei `src/LinkList.jsx` an, um deine eigenen Links hinzuzufügen.
 - Ändere die Stile in `src/App.css`, um das Erscheinungsbild deiner Seite anzupassen.
+- Um die Anwendung auf deiner Domain nutzen zu können, ändere den `homepage:`-Eintrag der `package.json`
 
 ## Beitrag
 
