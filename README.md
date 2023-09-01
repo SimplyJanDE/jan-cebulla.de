@@ -29,7 +29,7 @@ const links = [
 
 export default links;
 ```
-Wenn du LinkData.jsx verwendest, musst du die Datei `LinkData.jsx` selbst anpassen, indem du deine eigenen Links hinzufügst oder vorhandene Links änderst. Beachte, dass die Verwendung von Supabase in diesem Fall nicht erforderlich ist. 
+Wenn du `LinkData.jsx` verwendest, musst du die Datei `LinkData.jsx` selbst anpassen, indem du deine eigenen Links hinzufügst oder vorhandene Links änderst. Beachte, dass die Verwendung von Supabase in diesem Fall nicht erforderlich ist. 
 
 - Passe die `src/components/LinkList.jsx`-Datei an, um sicherzustellen, dass sie die `LinkData.jsx`-Datei verwendet. Hier ist ein Beispiel:
 
