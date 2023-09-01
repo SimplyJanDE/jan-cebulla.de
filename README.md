@@ -13,7 +13,7 @@ Dies ist eine einfache React-Anwendung, die als Alternative zu Linktree verwende
 
 ### Methode 1: Verwendung von `LinkData.jsx`
 
-- Erstelle eine Datei, z.B. `src/LinkData.jsx` an, um deine eigenen Links hinzuzufügen. Hier ist ein Beispiel:
+- Erstelle eine Datei, z.B. `src/LinkData.jsx`, um deine eigenen Links hinzuzufügen. Hier ist ein Beispiel:
 
 ```jsx
 // src/LinkData.jsx
@@ -31,7 +31,7 @@ export default links;
 ```
 Wenn du LinkData.jsx verwendest, musst du die Datei `LinkData.jsx` selbst anpassen, indem du deine eigenen Links hinzufügst oder vorhandene Links änderst. Beachte, dass die Verwendung von Supabase in diesem Fall nicht erforderlich ist. 
 
-- Passe die `src/components/LinkList.jsx`-Datei an, um sicherzustellen, dass sie die LinkData.jsx-Datei verwendet. Hier ist ein Beispiel:
+- Passe die `src/components/LinkList.jsx`-Datei an, um sicherzustellen, dass sie die `LinkData.jsx`-Datei verwendet. Hier ist ein Beispiel:
 
   ```jsx
   // src/components/LinkList.jsx
