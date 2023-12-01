@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; // Importiere React, useState und useEffect
-import './App.css';
+import './output.css';
 import supabase from './supabaseConfig';
 import LinkList from './components/LinkList';
 
