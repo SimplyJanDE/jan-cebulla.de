@@ -56,7 +56,7 @@ body {
 h1 {
   padding-left: 0;
   margin-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.75rem;
   font-weight: 700;
 }
@@ -71,6 +71,7 @@ h1 {
 
 /* NeumorphismButton-Stile */
 .NeumorphismButton {
+  font-size: 19px;
   width: 200px;
   height: 60px;
   padding: 8px;
@@ -83,7 +84,7 @@ h1 {
   background-color: var(--primary-color);
   box-shadow: -3px -3px 5px #166380, 6px 6px 10px #00000040;
   transition: box-shadow 0.3s;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
 
 .NeumorphismButton:hover {
@@ -91,11 +92,9 @@ h1 {
     inset -2px -2px 3px rgba(255, 255, 255, 1), inset 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-.NeumorphismButton > svg {
-  font-size: 20px;
-}
 
 /* Media Query für kleine Bildschirme (max. 600px Breite) */
+
 @media only screen and (max-width: 600px) {
   .App {
     padding-left: 8px;
@@ -118,7 +117,10 @@ h1 {
   }
 
   .NeumorphismButton {
-    width: 100%; /* Änderung für gleiche Button-Größe */
-    max-width: 100%;
+    width: 200px;
+    height: 60px;
+    padding: 8px;
+    font-size: 20px; /* Neue Schriftgröße für kleine Bildschirme hinzugefügt */
+    margin-bottom: 1rem; /* Verhindert zu geringen Abstand zwischen Buttons */
   }
 }
